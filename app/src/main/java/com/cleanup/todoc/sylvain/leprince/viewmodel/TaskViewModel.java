@@ -1,11 +1,11 @@
-package com.cleanup.todoc.viewmodel;
+package com.cleanup.todoc.sylvain.leprince.viewmodel;
 
 import android.app.Application;
 import android.arch.lifecycle.AndroidViewModel;
 import android.arch.lifecycle.LiveData;
 import android.support.annotation.NonNull;
-import com.cleanup.todoc.model.Task;
-import com.cleanup.todoc.repositories.TaskRepository;
+import com.cleanup.todoc.sylvain.leprince.model.Task;
+import com.cleanup.todoc.sylvain.leprince.repositories.TaskRepository;
 import java.util.List;
 
 public class TaskViewModel extends AndroidViewModel {

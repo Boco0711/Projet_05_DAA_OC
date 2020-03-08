@@ -1,4 +1,4 @@
-package com.cleanup.todoc.database;
+package com.cleanup.todoc.sylvain.leprince.database;
 
 import android.arch.persistence.db.SupportSQLiteDatabase;
 import android.arch.persistence.room.Database;
@@ -7,10 +7,10 @@ import android.arch.persistence.room.RoomDatabase;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.support.annotation.NonNull;
-import com.cleanup.todoc.database.dao.ProjectDao;
-import com.cleanup.todoc.database.dao.TaskDao;
-import com.cleanup.todoc.model.Project;
-import com.cleanup.todoc.model.Task;
+import com.cleanup.todoc.sylvain.leprince.database.dao.ProjectDao;
+import com.cleanup.todoc.sylvain.leprince.database.dao.TaskDao;
+import com.cleanup.todoc.sylvain.leprince.model.Project;
+import com.cleanup.todoc.sylvain.leprince.model.Task;
 
 @Database(entities = {Task.class, Project.class}, version = 1, exportSchema = false)
 public abstract class CleanUpDatabase extends RoomDatabase {

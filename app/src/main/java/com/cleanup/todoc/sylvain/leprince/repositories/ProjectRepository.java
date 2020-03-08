@@ -1,10 +1,10 @@
-package com.cleanup.todoc.repositories;
+package com.cleanup.todoc.sylvain.leprince.repositories;
 
 import android.app.Application;
 import android.arch.lifecycle.LiveData;
-import com.cleanup.todoc.database.CleanUpDatabase;
-import com.cleanup.todoc.database.dao.ProjectDao;
-import com.cleanup.todoc.model.Project;
+import com.cleanup.todoc.sylvain.leprince.database.CleanUpDatabase;
+import com.cleanup.todoc.sylvain.leprince.database.dao.ProjectDao;
+import com.cleanup.todoc.sylvain.leprince.model.Project;
 import java.util.List;
 
 public class ProjectRepository {

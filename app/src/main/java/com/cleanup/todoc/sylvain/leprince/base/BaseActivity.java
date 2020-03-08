@@ -1,4 +1,4 @@
-package com.cleanup.todoc.base;
+package com.cleanup.todoc.sylvain.leprince.base;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

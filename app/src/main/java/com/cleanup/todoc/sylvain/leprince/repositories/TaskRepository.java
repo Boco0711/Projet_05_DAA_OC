@@ -1,11 +1,11 @@
-package com.cleanup.todoc.repositories;
+package com.cleanup.todoc.sylvain.leprince.repositories;
 
 import android.app.Application;
 import android.arch.lifecycle.LiveData;
 import android.os.AsyncTask;
-import com.cleanup.todoc.database.CleanUpDatabase;
-import com.cleanup.todoc.database.dao.TaskDao;
-import com.cleanup.todoc.model.Task;
+import com.cleanup.todoc.sylvain.leprince.database.CleanUpDatabase;
+import com.cleanup.todoc.sylvain.leprince.database.dao.TaskDao;
+import com.cleanup.todoc.sylvain.leprince.model.Task;
 import java.util.List;
 
 public class TaskRepository {

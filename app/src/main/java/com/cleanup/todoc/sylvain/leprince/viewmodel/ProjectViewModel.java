@@ -1,11 +1,11 @@
-package com.cleanup.todoc.viewmodel;
+package com.cleanup.todoc.sylvain.leprince.viewmodel;
 
 import android.app.Application;
 import android.arch.lifecycle.AndroidViewModel;
 import android.arch.lifecycle.LiveData;
 import android.support.annotation.NonNull;
-import com.cleanup.todoc.model.Project;
-import com.cleanup.todoc.repositories.ProjectRepository;
+import com.cleanup.todoc.sylvain.leprince.model.Project;
+import com.cleanup.todoc.sylvain.leprince.repositories.ProjectRepository;
 import java.util.List;
 
 public class ProjectViewModel extends AndroidViewModel {

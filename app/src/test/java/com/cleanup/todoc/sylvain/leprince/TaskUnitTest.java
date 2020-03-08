@@ -1,6 +1,6 @@
-package com.cleanup.todoc;
+package com.cleanup.todoc.sylvain.leprince;
 
-import com.cleanup.todoc.model.Task;
+import com.cleanup.todoc.sylvain.leprince.model.Task;
 import org.junit.Test;
 import java.util.ArrayList;
 import java.util.Collections;

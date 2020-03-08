@@ -1,4 +1,4 @@
-package com.cleanup.todoc.ui;
+package com.cleanup.todoc.sylvain.leprince.ui;
 
 import android.arch.lifecycle.ViewModelProviders;
 import android.content.DialogInterface;
@@ -16,14 +16,13 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.cleanup.todoc.R;
-import com.cleanup.todoc.base.BaseActivity;
-import com.cleanup.todoc.model.Project;
-import com.cleanup.todoc.model.Task;
-import com.cleanup.todoc.viewmodel.ProjectViewModel;
-import com.cleanup.todoc.todolist.TaskAdapter;
-import com.cleanup.todoc.viewmodel.TaskViewModel;
+import com.cleanup.todoc.sylvain.leprince.R;
+import com.cleanup.todoc.sylvain.leprince.base.BaseActivity;
+import com.cleanup.todoc.sylvain.leprince.model.Project;
+import com.cleanup.todoc.sylvain.leprince.model.Task;
+import com.cleanup.todoc.sylvain.leprince.viewmodel.ProjectViewModel;
+import com.cleanup.todoc.sylvain.leprince.todolist.TaskAdapter;
+import com.cleanup.todoc.sylvain.leprince.viewmodel.TaskViewModel;
 import java.util.Collections;
 import java.util.Date;
 import java.util.List;
